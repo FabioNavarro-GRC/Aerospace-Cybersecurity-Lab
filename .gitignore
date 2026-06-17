@@ -1,0 +1,8 @@
+# Ignore secrets
+config.py
+.env
+
+# Ignore Python artifacts and virtual environments
+__pycache__/
+*.pyc
+flat-sat-env/

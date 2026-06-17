@@ -33,3 +33,4 @@ The system simulates a distributed satellite environment:
 -Contribute to the aerospace cybersecurity knowledge base within the Polish aerospace ecosystem.
 
 **Project currently in development as part of a professional training path in Aerospace Cybersecurity.**
+**For detailed technical documentation and lab setup, see the /docs directory.**

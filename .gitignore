@@ -1,5 +1,5 @@
 # Ignore secrets
-config.py
+confirg.py
 .env
 
 # Ignore Python artifacts and virtual environments

@@ -17,7 +17,7 @@ Obfuscation: Base64 encoding is utilized to protect the encrypted binary payload
 Credential Management: Sensitive API keys are isolated in a local config.py file, excluded from version control to prevent leaks.
 
 ## Learning Roadmap
-- [ ] **Phase 1: Hardware Integration.** Assembly, soldering, and configuration of the FlatSat nodes.
+- [X] **Phase 1: Hardware Integration.** Assembly, soldering, and configuration of the FlatSat nodes.
 - [X] **Phase 2: Telemetry Link.** Implementation of UART serial protocols for robust data transmission.
 - [ ] **Phase 3: RF Auditing.** Signal analysis in the 433MHz band using SDR to detect information leakage.
 - [ ] **Phase 4: Resilience & Defense.** Investigation of common attacks (Jamming, Spoofing) and development of lightweight encryption/authentication mechanisms.

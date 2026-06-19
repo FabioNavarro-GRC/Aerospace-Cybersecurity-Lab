@@ -22,3 +22,8 @@ The system demonstrates high availability under fluctuating signal conditions:
 Enviando... Temp: 23.5C, Hum: 53.1%
 Error de lectura (normal): Checksum did not validate. Try again.
 Enviando... Temp: 23.5C, Hum: 53.1%
+
+## Security & Data Integrity Analysis
+* **Encrypted Transmission:** Data sent to ThingSpeak uses HTTPS, ensuring transport layer security for the telemetry stream.
+* **Checksum Validation:** The system incorporates DHT22 checksum verification before transmission. Invalid packets are discarded at the gateway level, preventing the injection of malformed data into the cloud database.
+* **Resilience Protocol:** Implemented retry logic with exponential backoff to handle temporary signal degradation without crashing the transmission thread.
